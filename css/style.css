@@ -1,0 +1,23 @@
+:root {
+    --light-grey: #E7E7E7;
+    --dark-grey: #ADADAD;
+}
+
+#container-search>input,
+#container-search>button {
+    background-color: var(--light-grey);
+    border: 0;
+    padding: 15px 10px;
+    color: var(--dark-grey);
+}
+
+#container-search>button svg {
+    color: black;
+    width: 25px;
+    height: auto;
+}
+
+.card {
+    background-color: var(--light-grey);
+    border: 0;
+}
